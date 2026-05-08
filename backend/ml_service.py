@@ -6,7 +6,7 @@ import torchvision.transforms as transforms
 
 # Kelas untuk klasifikasi gambar
 class InsectClassifier:
-    def __init__(self, metadata_path, model_path):
+    def __init__(self, model_path):
 
 
 
