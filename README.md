@@ -55,7 +55,7 @@ Aplikasi ini adalah sistem identifikasi serangga berbasis AI yang menggabungkan 
    ```
 
 
-5. Pastikan model dan metadata berada di folder `artifacts/`.
+5. Pastikan model berada di folder `artifacts/`.
 
 
 ### 3. Setup Frontend
@@ -97,7 +97,7 @@ Buka `http://localhost:3000` di browser Anda.
 ```text
 insect-analyzer/
 ├── backend/
-│   ├── artifacts/           # Model (.pt) & Metadata (.json)
+│   ├── artifacts/           # Model
 │   ├── main.py              # Entry point FastAPI
 │   ├── ml_service.py        # Logika Inference PyTorch
 │   ├── gemini_service.py    # Integrasi SDK Gemini
